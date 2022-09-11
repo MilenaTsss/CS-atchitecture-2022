@@ -2,10 +2,10 @@
 
 Был создан файл hw1.c, в котором написан код на языке C для вывода Hello world
 Также были выполнены следующие команды
-gcc -E hw1.c > hw1.i
-gcc -S hw1.i
-gcc -c hw1.s -o hw1.o
-gcc hw1.o
+1. gcc -E hw1.c > hw1.i
+2. gcc -S hw1.i
+3. gcc -c hw1.s -o hw1.o
+4. gcc hw1.o
 
 # Задание 4
 Были выполнены различные трансформации в язык ассемблера
@@ -17,5 +17,5 @@ gcc hw1.o
 # Задание 5
 Написана программа на языке nasm и выполнены следующие команды, чтобы собрать исполняемый файл
 
-nasm -f elf32 hw.asm -o hw.o
-ld -m elf_i386 hw.o -o hw
+1. nasm -f elf32 hw.asm -o hw.o
+2. ld -m elf_i386 hw.o -o hw
